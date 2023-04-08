@@ -1,0 +1,9 @@
+@keyframes fadeInOut {
+    0% {opacity: 0%;}
+    50%{opacity: 100%;}
+    100%{opacity: 0%;}
+}
+.anim-fadeInOut{
+    display: inline-block;
+    animation: fadeInOut 2s linear 0ms infinite normal both;
+}

@@ -1,0 +1,86 @@
+.anim-duration-o25{animation-duration: .25s !important;}
+.anim-duration-o5{animation-duration: .5s !important;}
+.anim-duration-o75{animation-duration: .75s !important;}
+.anim-duration-1{animation-duration: 1s !important;}
+.anim-duration-1o25{animation-duration: 1.25s !important;}
+.anim-duration-1o5{animation-duration: 1.5s !important;}
+.anim-duration-1o75{animation-duration: 1.75s !important;}
+.anim-duration-2{animation-duration: 2s !important;}
+.anim-duration-2o25{animation-duration: 2.25s !important;}
+.anim-duration-2o5{animation-duration: 2.5s !important;}
+.anim-duration-2o75{animation-duration: 2.75s !important;}
+.anim-duration-3{animation-duration: 3s !important;}
+.anim-duration-3o25{animation-duration: 3.25s !important;}
+.anim-duration-3o5{animation-duration: 3.5s !important;}
+.anim-duration-3o75{animation-duration: 3.75s !important;}
+.anim-duration-4{animation-duration: 4s !important;}
+
+.anim-count-1{animation-iteration-count: 1 !important;}
+.anim-count-2{animation-iteration-count: 2 !important;}
+.anim-count-3{animation-iteration-count: 3 !important;}
+.anim-count-4{animation-iteration-count: 4 !important;}
+.anim-count-5{animation-iteration-count: 5 !important;}
+.anim-count-infinite{animation-iteration-count: infinite !important;}
+
+.anim-no-delay{animation-delay: 0s !important;}
+.anim-delay-o25{animation-delay: .25s !important;}
+.anim-delay-o5{animation-delay: .5s !important;}
+.anim-delay-o75{animation-delay: .75s !important;}
+.anim-delay-1{animation-delay: 1s !important;}
+.anim-delay-1o25{animation-delay: 1.25s !important;}
+.anim-delay-1o5{animation-delay: 1.5s !important;}
+.anim-delay-1o75{animation-delay: 1.75s !important;}
+.anim-delay-2{animation-delay: 2s !important;}
+.anim-delay-2o25{animation-delay: 2.25s !important;}
+.anim-delay-2o5{animation-delay: 2.5s !important;}
+.anim-delay-2o75{animation-delay: 2.75s !important;}
+.anim-delay-3{animation-delay: 3s !important;}
+.anim-delay-3o25{animation-delay: 3.25s !important;}
+.anim-delay-3o5{animation-delay: 3.5s !important;}
+.anim-delay-3o75{animation-delay: 3.75s !important;}
+.anim-delay-4{animation-delay: 4s !important;}
+
+.anim-dir-normal, .anim-dir-forward{animation-direction: normal !important;}
+.anim-dir-reverse, .anim-dir-backward{animation-direction: reverse !important;}
+.anim-dir-alternate, .anim-dir-forward-backward{animation-direction: alternate !important;}
+.anim-dir-alternate-reverse, .anim-dir-backward-forward{animation-direction: alternate-reverse !important;}
+
+.anim-speed-normal, .anim-speed-ease {animation-timing-function: ease !important;}
+.anim-speed-linear, .anim-speed-straight {animation-timing-function: linear !important;}
+.anim-speed-slow-start, .anim-speed-ease-in {animation-timing-function: ease-in !important;}
+.anim-speed-slow-end, .anim-speed-ease-out {animation-timing-function: ease-out !important;}
+.anim-speed-slow-start-end, .anim-speed-ease-in-out {animation-timing-function: ease-in-out !important;}
+
+.anim-stay-end, .anim-fill-forwards{animation-fill-mode: forwards !important;}
+.anim-stay-start, .anim-fill-backwards{animation-fill-mode: backwards !important;}
+.anim-stay, .anim-fill-both{animation-fill-mode: both !important;}
+.anim-fill-none{animation-fill-mode: none !important;}
+
+@keyframes fadeIn {
+0%{
+opacity: 0%;
+}
+100%{
+opacity: 100%;
+}
+}
+.anim-fade-in{animation-name: fadeIn !important;}
+@keyframes fadeOut {
+0%{
+opacity: 100%;
+}
+100%{
+opacity: 0%;
+}
+}
+.anim-fade-out{animation-name: fadeOut !important;}
+
+@keyframes offCanvasLeft {
+0% {
+position: absolute;
+left: -100%;
+}
+100% {
+left: 100%;
+}
+}

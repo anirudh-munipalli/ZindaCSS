@@ -1,0 +1,11 @@
+.tag{
+text-transform: uppercase;
+font-size: .55em;
+font-weight: bold;
+
+border-width: thin;
+border-style: solid;
+border-radius: 40%;
+
+padding: .5em;
+}

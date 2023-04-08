@@ -1,0 +1,22 @@
+{
+  "name": "zindacss",
+  "version": "1.0.0",
+  "description": "A utility class based CSS framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./src/index.js",
+  "keywords": [
+    "CSS",
+    "framework",
+    "utility",
+    "stylesheet"
+  ],
+  "author": "Anirudh Munipalli",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^21.1.1",
+    "purgecss": "^5.0.0"
+  }
+}

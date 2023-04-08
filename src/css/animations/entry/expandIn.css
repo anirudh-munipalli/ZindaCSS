@@ -1,0 +1,8 @@
+@keyframes expandIn {
+    0%{transform: scale(20%);}
+    100%{transform: scale(100%);}
+}
+.anim-expandIn{
+    display: inline-block;
+    animation: expandIn 635ms linear 0ms 1 normal both;
+}

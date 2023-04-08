@@ -1,0 +1,46 @@
+.display-block{display: block !important;}
+.display-inline-block{display: inline-block !important;}
+.display-inline{display: inline !important;}
+.no-underline{text-decoration: none;}
+.display-none{display: none !important;}
+
+.font-serif{font-family: serif;}
+.font-sans-serif{font-family: sans-serif;}
+.font-monospace{font-family: monospace;}
+
+.overflow-y-scroll{
+    overflow-y: scroll;
+}
+.overflow-x-scroll{
+    overflow-x: scroll;
+}
+.overflow-y-hidden{
+    overflow-y: hidden;
+}
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
+
+
+.list-unstyled {
+    list-style-type: none;
+}
+.list-circle{
+    list-style-type: circle;
+}
+.list-alphabet-lower {
+    list-style-type: lower-alpha;
+}
+.list-alphabet-upper {
+    list-style-type: upper-alpha;
+}
+.list-roman {
+    list-style-type: lower-roman;
+}
+
+.square{
+    aspect-ratio: 2 / 2;
+}
+.video{
+    aspect-ratio: 160 / 90;
+}

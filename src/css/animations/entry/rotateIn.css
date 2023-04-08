@@ -1,0 +1,24 @@
+@keyframes rotateInZ {
+    0%{opacity: 0%; transform: rotateZ(0deg)}
+    100%{opacity: 100%; transform: rotateZ(360deg);}
+}
+.anim-rotateInZ{
+    display: inline-block;
+    animation: rotateInZ 1s linear 0ms 1 normal both;
+}
+@keyframes rotateInY {
+    0%{opacity: 0%; transform: rotateY(0deg)}
+    100%{opacity: 100%; transform: rotateY(360deg);}
+}
+.anim-rotateInY{
+    display: inline-block;
+    animation: rotateInY 1s linear 0ms 1 normal both;
+}
+@keyframes rotateInX {
+    0%{opacity: 0%; transform: rotateX(0deg)}
+    100%{opacity: 100%; transform: rotateX(360deg);}
+}
+.anim-rotateInX{
+    display: inline-block;
+    animation: rotateInX 1s linear 0ms 1 normal both;
+}

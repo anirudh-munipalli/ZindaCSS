@@ -1,0 +1,10 @@
+@keyframes bobAnimation {
+    0% {}
+    33% {transform: translateY(-20%);}
+    66%{transform: translateY(20%);}
+    100%{transform: translateY(0)}
+}
+.anim-bob{
+    display: inline-block;
+    animation: bobAnimation 750ms linear 0ms infinite normal both;
+}

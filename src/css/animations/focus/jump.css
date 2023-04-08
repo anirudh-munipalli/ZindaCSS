@@ -1,0 +1,10 @@
+@keyframes jumpAnimation {
+    0%{}
+    30%{transform: translateY(-50%);}
+    60%{transform: translateY(0%);}
+    100%{}
+}
+.anim-jump{
+    display: inline-block;
+    animation: jumpAnimation .75s linear 0ms infinite normal both;
+}

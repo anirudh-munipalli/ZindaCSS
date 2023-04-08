@@ -1,0 +1,14 @@
+@keyframes shakeAnimation {
+    0% {}
+    8% {transform: translateX(-4%);}
+    17%{transform: translateX(4%);}
+    25%{transform: translateX(-2%);}
+    33%{transform: translateX(2%);}
+    42%{transform: translateX(1%);}
+    50%{transform: translateX(0);}
+    100%{transform: translateY(0)}
+}
+.anim-shake{
+    display: inline-block;
+    animation: shakeAnimation 1s linear 0ms infinite normal both;
+}

@@ -1,0 +1,31 @@
+.round-border-1{border-radius: 10%;}
+.round-border-2{border-radius: 20%;}
+.round-border-3{border-radius: 30%;}
+.round-border-4{border-radius: 40%;}
+.round-border-5, .ellipse{border-radius: 50%;}
+
+.border-normal, .border-solid{border-style: solid;}
+.border-dashed{border-style: dashed;}
+.border-dotted{border-style: dotted;}
+.border-double{border-style: double;}
+.border-inset{border-style: inset;}
+.border-outset{border-style: outset;}
+.border-ridge{border-style: ridge;}
+.border-groove{border-style: groove;}
+
+.border-size-thin{border-width: thin;}
+.border-size-normal, .border-size-medium{border-width: medium;}
+.border-size-thick{border-width: thick;}
+
+.border-size-1{border-width: .25ch;}
+.border-size-2{border-width: .5ch;}
+.border-size-3{border-width: .75ch;}
+.border-size-4{border-width: 1ch;}
+.border-size-5{border-width: 1.25ch;}
+.border-size-6{border-width: 1.5ch;}
+.border-size-7{border-width: 1.75ch;}
+.border-size-8{border-width: 2ch;}
+.border-size-9{border-width: 2.25ch;}
+.border-size-10{border-width: 2.5ch;}
+.border-size-11{border-width: 2.75ch;}
+.border-size-12{border-width: 3ch;}

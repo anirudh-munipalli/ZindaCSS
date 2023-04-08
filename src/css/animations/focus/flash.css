@@ -1,0 +1,9 @@
+@keyframes flashAnimation {
+    0% {opacity: 100%;}
+    50%{opacity: 5%;}
+    100%{opacity: 100%;}
+}
+.anim-flash{
+    display: inline-block;
+    animation: flashAnimation 850ms linear 0ms infinite normal both;
+}

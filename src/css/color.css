@@ -1,0 +1,100 @@
+.color-black-1{color: rgb(25, 25, 25);}
+.color-black-2{color: rgb(51, 51, 51);}
+.color-black-3{color: rgb(77, 77, 77);}
+.color-black-4{color: rgb(102, 128, 128);}
+.color-black-5{color: rgb(128, 128, 128);}
+.color-black-6{color: rgb(153, 153, 153);}
+.color-black-7{color: rgb(179, 179, 179);}
+.color-black-8{color: rgb(204, 204, 204);}
+.color-black-9{color: rgb(230, 230, 230);}
+.color-black-10, .color-white, .text-white{color: rgb(255, 255, 255);}
+.color-black{color: rgb(0, 0, 0);}
+
+.color-red-1{color: rgb(25, 0, 0);}
+.color-red-2{color: rgb(51, 0, 0);}
+.color-red-3{color: rgb(77, 0, 0);}
+.color-red-4{color: rgb(102, 0, 0);}
+.color-red-5{color: rgb(128, 0, 0);}
+.color-red-6{color: rgb(153, 0, 0);}
+.color-red-7{color: rgb(179, 0, 0);}
+.color-red-8{color: rgb(204, 0, 0);}
+.color-red-9{color: rgb(230, 0, 0);}
+.color-red-10, .color-red, .text-red{color: rgb(255, 0, 0);}
+
+.color-green-1{color: rgb(0, 25, 0);}
+.color-green-2{color: rgb(0, 51, 0);}
+.color-green-3{color: rgb(0, 77, 0);}
+.color-green-4{color: rgb(0, 102, 0);}
+.color-green-5{color: rgb(0, 128, 0);}
+.color-green-6{color: rgb(0, 153, 0);}
+.color-green-7{color: rgb(0, 179, 0);}
+.color-green-8{color: rgb(0, 204, 0);}
+.color-green-9{color: rgb(0, 230, 0);}
+.color-green-10, .color-green, .text-green{color: rgb(0, 255, 0);}
+
+.color-blue-1{color: rgb(0, 0, 25);}
+.color-blue-2{color: rgb(0, 0, 51);}
+.color-blue-3{color: rgb(0, 0, 77);}
+.color-blue-4{color: rgb(0, 0, 102);}
+.color-blue-5{color: rgb(0, 0, 128);}
+.color-blue-6{color: rgb(0, 0, 153);}
+.color-blue-7{color: rgb(0, 0, 179);}
+.color-blue-8{color: rgb(0, 0, 204);}
+.color-blue-9{color: rgb(0, 0, 230);}
+.color-blue-10, .color-blue, .text-blue{color: rgb(0, 0, 255);}
+
+.color-purple{color: rgb(160, 32, 240);}
+.color-purple-1{color: rgb(15, 2, 23);}
+.color-purple-2{color: rgb(29, 4, 47);}
+.color-purple-3{color: rgb(58, 8, 94);}
+.color-purple-4{color: rgb(87, 12, 141);}
+.color-purple-5{color: rgb(116, 16, 188);}
+.color-purple-6{color: rgb(145, 20, 235);}
+.color-purple-7{color: rgb(167, 67, 239);}
+.color-purple-8{color: rgb(189, 114, 243);}
+.color-purple-9{color: rgb(211, 161, 247);}
+.color-purple-10{color: rgb(233, 208, 251);}
+
+.color-yellow-1{color: rgb(26, 26, 0);}
+.color-yellow-2{color: rgb(51, 51, 0);}
+.color-yellow-3{color: rgb(102, 102, 0);}
+.color-yellow-4{color: rgb(153, 153, 0);}
+.color-yellow-5{color: rgb(204, 204, 0);}
+.color-yellow-6, .color-yellow, .text-yellow{color: rgb(255, 255, 0);}
+.color-yellow-7{color: rgb(255, 255, 51);}
+.color-yellow-8{color: rgb(255, 255, 102);}
+.color-yellow-9{color: rgb(255, 255, 153);}
+.color-yellow-10{color: rgb(255, 255, 204);}
+
+.color-pink-1{color: rgb(51, 0, 9);}
+.color-pink-2{color: rgb(102, 0, 19);}
+.color-pink-3{color: rgb(153, 0, 28);}
+.color-pink-4{color: rgb(204, 0, 37);}
+.color-pink-5{color: rgb(255, 0, 47);}
+.color-pink-6, .color-pink, .text-pink{color: rgb(255, 51, 88);}
+.color-pink-7{color: rgb(255, 102, 130);}
+.color-pink-8{color: rgb(255, 153, 172);}
+.color-pink-9{color: rgb(255, 204, 213);}
+.color-pink-10{color: rgb(255, 230, 234);}
+
+.color-brown-1{color: rgb(51, 25, 0);}
+.color-brown-2{color: rgb(102, 49, 0);}
+.color-brown-3, .color-brown, .text-brown{color: rgb(153, 74, 0);}
+.color-brown-4{color: rgb(204, 99, 0);}
+.color-brown-5{color: rgb(255, 123, 0);}
+.color-brown-6{color: rgb(255, 150, 51);}
+.color-brown-7{color: rgb(255, 176, 102);}
+.color-brown-8{color: rgb(255, 202, 153);}
+.color-brown-9{color: rgb(255, 229, 204);}
+.color-brown-10{color: rgb(255, 242, 230);}
+
+.color-sky-1{color: rgb(0, 39, 51);}
+.color-sky-2{color: rgb(0, 78, 102);}
+.color-sky-3{color: rgb(0, 117, 153);}
+.color-sky-4{color: rgb(0, 156, 204);}
+.color-sky-5{color: rgb(0, 195, 255);}
+.color-sky-6, .color-sky, .text-sky{color: rgb(51, 207, 255);}
+.color-sky-7{color: rgb(102, 219, 255);}
+.color-sky-8{color: rgb(153, 231, 255);}
+.color-sky-9{color: rgb(204, 243, 255);}
+.color-sky-10{color: rgb(230, 249, 255);}

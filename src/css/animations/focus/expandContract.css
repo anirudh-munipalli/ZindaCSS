@@ -1,0 +1,9 @@
+@keyframes expand{
+    0% {transform: scale(105%);}
+    50%{transform: scale(80%)}
+    100%{transform: scale(105%);}
+}
+.anim-expand{
+    display: inline-block;
+    animation: expand 1s linear 0ms infinite normal both;
+}

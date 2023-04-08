@@ -1,0 +1,15 @@
+.cursor-pointer{
+    cursor:pointer;
+}
+.cursor-not-allowed{
+    cursor: not-allowed;
+}
+.cursor-text{
+    cursor:text;
+}
+.cursor-load{
+    cursor: wait;
+}
+.cursor-wait{
+    cursor: wait;
+}

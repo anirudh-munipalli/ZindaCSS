@@ -1,0 +1,8 @@
+@keyframes expandOut {
+    0%{transform: scale(100%);}
+    100%{transform: scale(0%); display: none;}
+}
+.anim-expandOut{
+    display: inline-block;
+    animation: expandOut 635ms linear 0ms 1 normal both;
+}
