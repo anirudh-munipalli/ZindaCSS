@@ -28,7 +28,7 @@ You can add classes like `:hover` and `:focus` to add pseudoselectors to CSS. Ex
 
 Your file is monitored for changes as soon as you save your file, and a new stylesheet is generated immediately
 
-You can group classes together. If many elements have the same style, you can simply use <zindagroups> for adding styles accross many elements.
+You can group classes together. If many elements have the same style, you can simply use `<zindagroup>` for adding styles accross many elements.
 
 ## Documentation
 
