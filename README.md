@@ -53,3 +53,6 @@ You can group classes together. If many elements have the same style, you can si
 ## Documentation
 
 The link to the documentation: https://anirudh-munipalli.github.io/zindacss-documentation/
+
+### NPM
+The npm package link: https://www.npmjs.com/package/zindacss
