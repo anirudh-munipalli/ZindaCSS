@@ -125,6 +125,20 @@ var colors = [
         number10: "rgb(230, 249, 255)",
         main: "rgb(51, 207, 255)"
     },
+    {
+        color: "orange",
+        number1: "rgb(255, 246, 230)",
+        number2: "#ffeccc",
+        number3: "#ffda99",
+        number4: "#ffc766",
+        number5: "#ffb433",
+        number6: "#ffa200",
+        number7: "#cc8100",
+        number8: "#996100",
+        number9: "#664100",
+        number10: "#332000",
+        main: "rgb(255, 165, 0)"
+    },
 ]
 var extra = `
 .text-white, .color-white{color: rgb(255, 255, 255)}

@@ -1,6 +1,6 @@
 {
   "name": "zindacss",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A utility class based CSS framework",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "author": "Anirudh Munipalli",
   "license": "MIT",
   "dependencies": {
-    "jsdom": "^21.1.1",
+    "jsdom": "^22.0.0",
     "purgecss": "^5.0.0"
   }
 }

@@ -18,6 +18,10 @@ function getCSSForSelectors(html, css, selector){
 
         css.forEach((f) => {
             let k = e;
+            f = f.trim();
+            if(f.startsWith(".")){
+                f = f.substring(1)
+            }
             f = f.split('@');
             if(f.length>1){
                 for (let i = 0; i < f.length; i++) {
