@@ -51,9 +51,7 @@ Your file is monitored for changes as soon as you save your file, and a new styl
 You can group classes together. If many elements have the same style, you can simply use `<zindagroup>` for adding styles accross many elements.
 
 ## What's new
-In the new version update, we have added a new color - orange.
-
-Also, dependencies have been updated to the latest version.
+In version 1.2.0, we have added support for fonts. You can now use APIs like Google fonts for giving your text good looking fonts
 
 ## Documentation
 
