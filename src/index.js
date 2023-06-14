@@ -10,6 +10,7 @@ const getCSSWithClasses = require('./js/getCSSWithClasses');
 const groupClasses = require('./js/groupClasses');
 const addTheme = require("./js/addTheme");
 const path = require('path');
+const font = require('./js/font')
 
 
 var timer = true;
@@ -65,8 +66,9 @@ function compileFile(pathToFile){ // This function generates the css output for 
     var extension = pathToFile.split('.');
     extension = extension[extension.length - 1]; // To find out the file extension
     var customVals = cssForCustomVal.cssForCustomVal(html); // Get the custom values of a file
-        getCSSFromFile.getCSSFromFile(html, extension).then((value) => { // After PurgeCSS is done compiling, only then will we create a css file.
-            var finalCSS =  value[0].hasOwnProperty("css") ? value[0].css : "Sorry an error occured";
+    getCSSFromFile.getCSSFromFile(html, extension).then((value) => { // After PurgeCSS is done compiling, only then will we create a css file.
+        var finalCSS = font.addFonts(html);
+            finalCSS +=  value[0].hasOwnProperty("css") ? value[0].css : "Sorry an error occured";
             finalCSS = finalCSS.replace(/(\r\n|\n|\r)/gm, ""); // Removes new lines
             finalCSS += customVals; // Add the custom values to the css.
             var fileHTML = fs.readFileIfExists(pathToFile)
